@@ -1,33 +1,48 @@
 # Minimum viable Neovim config
 
 I use this for troubleshooting on remote servers or computers that aren't mine.
-It should also be useful as a starting point for new users.
+It should also be useful as a starting point for beginners.
 
 ## Usage
 
 Install the following packages:
 
 - `neovim` >= v0.9.0
-- `fzf` (optional, it will prompt to download on first use if not found)
+- `fzf`
+- `ripgrep`
 
 ```sh
 # Arch
-sudo pacman -S neovim fzf
+sudo pacman -S neovim fzf ripgrep
+```
 
+```sh
 # Debian/Ubuntu
-sudo apt install neovim fzf
+sudo apt install neovim fzf ripgrep
+```
 
+```sh
 # Fedora/RedHat/CentOS/Rocky
-sudo dnf install neovim fzf
+sudo dnf install neovim fzf ripgrep
+```
 
+```sh
 # Alpine
-sudo apk add neovim fzf
+sudo apk add neovim fzf ripgrep
+```
 
+```sh
+# macOS Homebrew
+brew install neovim fzf ripgrep
+```
+
+```nix
 # NixOS
 {
   environment.systemPackages = with pkgs; [
     neovim
     fzf
+    ripgrep
   ];
 }
 ```

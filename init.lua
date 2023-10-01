@@ -40,6 +40,7 @@ require("lazy").setup({
         keys = {
             { "<LEADER><LEADER>", ":Files<CR>", desc = "Find files" },
             { "<LEADER>,", ":Buffers<CR>", desc = "Find buffers" },
+            { "<LEADER>/", ":Rg<CR>", desc = "Search project" },
         },
     },
 
