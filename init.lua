@@ -38,9 +38,9 @@ require("lazy").setup({
             "https://github.com/junegunn/fzf",
         },
         keys = {
-            { "<LEADER><LEADER>", ":Files<CR>", desc = "Find files" },
-            { "<LEADER>,", ":Buffers<CR>", desc = "Find buffers" },
-            { "<LEADER>/", ":Rg<CR>", desc = "Search project" },
+            { "<Leader><Leader>", "<Cmd>Files<CR>", desc = "Find files" },
+            { "<Leader>,", "<Cmd>Buffers<CR>", desc = "Find buffers" },
+            { "<Leader>/", "<Cmd>Rg<CR>", desc = "Search project" },
         },
     },
 
@@ -50,15 +50,18 @@ require("lazy").setup({
             require("oil").setup()
         end,
         keys = {
-            { "-", ":Oil<CR>", desc = "Browse files from here" },
+            { "-", "<Cmd>Oil<CR>", desc = "Browse files from here" },
         },
     },
 
     {
         "https://github.com/ggandor/leap.nvim",
-        event = "VeryLazy",
         config = function()
             require("leap").add_default_mappings()
         end,
+        keys = {
+            { "s", desc = "Sneak forward" },
+            { "S", desc = "Sneak backward" },
+        },
     },
 })
