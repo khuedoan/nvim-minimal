@@ -55,13 +55,10 @@ require("lazy").setup({
     },
 
     {
-        "https://github.com/ggandor/leap.nvim",
+        "https://github.com/folke/flash.nvim",
+        event = "VeryLazy",
         config = function()
-            require("leap").add_default_mappings()
+            require("flash").setup()
         end,
-        keys = {
-            { "s", desc = "Sneak forward" },
-            { "S", desc = "Sneak backward" },
-        },
     },
 })
