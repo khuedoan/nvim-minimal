@@ -1,7 +1,7 @@
 {
-  "flash.nvim": { "branch": "main", "commit": "6d76c5dee65181ab55cbdfb0760260e800d643f4" },
-  "fzf": { "branch": "master", "commit": "488a236b7a4d01e910e0ac80b4794a7a054fb3a8" },
-  "fzf.vim": { "branch": "master", "commit": "f3b82091a651a643ef18b220cd3e154d76a54462" },
-  "lazy.nvim": { "branch": "main", "commit": "6687afae42b72fb660bfae2bd0eb98e77156829b" },
-  "oil.nvim": { "branch": "master", "commit": "ac2928cca85ba3596e92f9f51940d46be2d606f8" }
+  "fzf": { "branch": "master", "commit": "4fdc08295b90485b7ee30a35d77177699c070113" },
+  "fzf.vim": { "branch": "master", "commit": "678ee1a549bd873dde35f6146f288a3f2e29d983" },
+  "lazy.nvim": { "branch": "main", "commit": "59335c5b9d116f5d3948f833288a89e2a829a005" },
+  "leap.nvim": { "branch": "main", "commit": "5efe985cf68fac3b6a6dfe7a75fbfaca8db2af9c" },
+  "oil.nvim": { "branch": "master", "commit": "956d7fc89b0bd1f9ea6515ca10c1e2a293e4d8fd" }
 }
