@@ -12,10 +12,6 @@ vim.o.undofile = true
 
 vim.g.mapleader = " "
 
--- Theme
-
-vim.cmd("colorscheme habamax")
-
 -- Plugins
 
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
